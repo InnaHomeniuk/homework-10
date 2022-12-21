@@ -10,7 +10,7 @@ console.log('2.	Додати 2 студенти на початок масиву
 arrayStudents.pop();
 console.log('3.Видалити останнього студента', arrayStudents);
 arrayStudents.shift();
-console.log('4.	Видалити першого студента',arrayStudents);
+console.log('4.	Видалити першого студента', arrayStudents);
 const nameStudent = prompt('Уведіть ім`я студента', '');
 const included = arrayStudents.includes(nameStudent);
 console.log(`Студент ${nameStudent} присутній у списку: ${included}`);
